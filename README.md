@@ -1,0 +1,8 @@
+# funlamentalJava
+FundalentalwithJava22
+ArraysExercise
+ArraysLab
+BasicSyntaxConditionalStatementsandLoopsExercise
+BasicSyntaxConditionalStatementsandLoopsMoreExercise
+DataTypesandVariablesExercise
+LabBasicSyntaxConditionalStatementsandLoops
