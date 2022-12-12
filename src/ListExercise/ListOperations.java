@@ -16,6 +16,7 @@ public class ListOperations {
 
         String command = scanner.nextLine();
 
+
         while (!command.equals("End")) {
             if (command.contains("Add")) {
                 int numAdd = Integer.parseInt(command.split("\\s+")[1]);

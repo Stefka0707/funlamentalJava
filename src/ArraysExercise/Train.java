@@ -7,15 +7,22 @@ public class Train {
         Scanner scanner = new Scanner(System.in);
 
         int n = Integer.parseInt(scanner.nextLine());
-        int sumPeople = 0;
-        for (int i = 1; i <=n; i++) {
-            int people = Integer.parseInt(scanner.nextLine());
-            sumPeople +=people;
 
-            System.out.print(people + " ");
+        int[] people = new int[n];
+
+        int sum = 0;
+        for (int index = 0; index <= people.length - 1; index++) {
+            people [index] = Integer.parseInt(scanner.nextLine());
         }
-            System.out.println("");
-        System.out.print(sumPeople);
+        for (int countPeople:people) {
+        sum += countPeople;
+        System.out.print(countPeople + " ");
+
+
+        }
+        System.out.println();
+        System.out.println(sum);
+
 
     }
 }
